@@ -100,11 +100,31 @@ public class C11QueStackDeque {
 //        System.out.println(maxpq);
 //        System.out.println(maxpq.poll());
 
+////        stack
+//        Stack<Integer> st = new Stack<>();
+//        st.push(10);
+//        st.push(20);
+//        st.push(30);
+//        System.out.println(st.pop());
+//        System.out.println(st.peek());
+//        System.out.println(st.size());
+//        System.out.println(st.isEmpty());
+//
+//        while (!st.isEmpty()) {
+//            System.out.println(st.pop());
+//        }
 
-
-
-
-
+//        Deque : addFirst, addLast, pollFirst, pollLast 가능
+        Deque<Integer> d1 = new ArrayDeque<>();
+        d1.addLast(10);
+        d1.addLast(20);
+        System.out.println(d1);
+        d1.addFirst(30);
+        System.out.println(d1);
+        System.out.println(d1.peekFirst());
+        System.out.println(d1.peekLast());
+        System.out.println(d1.pollLast());
+        System.out.println(d1.pollFirst());
 
 
 
