@@ -10,7 +10,7 @@ public class C11QueStackDeque {
 //        Queue<Integer> myQue = new LinkedList<>();
 //        myQue.add(10);
 //        myQue.add(20);
-//        myQue.add(30);
+//        myQue.add(30);d
 ////        myQue에 가장 앞의 데이터를 삭제하면서 반환
 //        System.out.println(myQue.poll());
 //        System.out.println(myQue);

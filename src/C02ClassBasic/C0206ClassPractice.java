@@ -29,6 +29,7 @@ public class C0206ClassPractice {
                 a.setBalance(a.getBalance() + 50000);
             }
         }
+//        user1.transfer
 
 //        계좌번호 잔고조회
         for (Account a : accounts) {
