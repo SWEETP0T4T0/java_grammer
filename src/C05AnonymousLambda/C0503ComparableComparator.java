@@ -107,15 +107,21 @@ public class C0503ComparableComparator {
 }
 //class Student implements Comparable<Student>{
 class Student {
+    private int id= 1;
     private String name;
     private int age;
 
     public Student(String name, int age) {
+        this.id = id+1;
         this.age = age;
         this.name = name;
     }
 
     public Student() {
+    }
+
+    public int getId() {
+        return id;
     }
 
     public String getName() {
